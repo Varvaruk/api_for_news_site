@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 
-$route['default_controller'] = 'tests';
+$route['default_controller'] = 'news';
 $route['404_override'] = 'api/error_404';
 $route['404'] = 'api/error_404';
 $route['error'] = 'api/error';
