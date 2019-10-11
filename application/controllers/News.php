@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: mr.incognito
- * Date: 10.11.2018
- * Time: 21:36
- */
+
 class News extends MY_Controller
 {
     protected $response_data;
@@ -16,6 +11,7 @@ class News extends MY_Controller
 
         $this->CI =& get_instance();
         $this->load->model('news_model');
+        $this->load->model('comment_model');
 
         if (ENVIRONMENT === 'production')
         {
@@ -50,8 +46,10 @@ class News extends MY_Controller
             $type_info = $param;
         }
         try {
+
             return $this->response_success(['news' => News_model::get_all($type_info), 'patch_notes' => []]);
         } catch (Exception $e) {
+
             return $this->response_error($e);
         }
     }
@@ -86,11 +84,20 @@ class News extends MY_Controller
         return $this->response_success(['news' => $response,'patch_notes' => []]);
     }
 
-    public function get_comments(int $news_id){ // or can be $this->input->post('news_id')
-        // for example: get all comments by api request :)
-        return $this->response_error('not_implemented');
+    /*
+   * Get Comments by ID News
+   *
+   * Method: GET
+   * URI:http://example.com/news/get_comments?news_id=4
+   *
+   */
+    public function get_comments()
+    {
+        if (!empty($param = $this->input->get(News_model::API_KEY_NEWS_ID))) {
+
+            return $this->response_success(['comments' => Comment_model::get_comments_by_news_id($param)]);
+        }
+
+        return $this->response_error("Param " . News_model::API_KEY_NEWS_ID . " not found!");
     }
-
-
-    
 }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a15756-3994-46c1-b4cb-a32642704e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Create_Comment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Comment_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Create_Like.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Like.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Like_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Comment_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Comment_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/News_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/News_model.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +56,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html/cloud-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,7 +104,7 @@
       <workItem from="1567557099411" duration="936000" />
       <workItem from="1570668705274" duration="274000" />
       <workItem from="1570669069155" duration="1265000" />
-      <workItem from="1570740181285" duration="22797000" />
+      <workItem from="1570740181285" duration="36450000" />
     </task>
     <servers />
   </component>
@@ -142,17 +144,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
-          <line>77</line>
+          <line>75</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
-          <line>49</line>
+          <line>45</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
-          <line>52</line>
+          <line>49</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -167,7 +169,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -177,32 +179,62 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
-          <line>151</line>
+          <line>165</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
-          <line>155</line>
+          <line>169</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
-          <line>172</line>
+          <line>191</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>97</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Like_model.php</url>
+          <line>103</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Like_model.php</url>
+          <line>141</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Like.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Like.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
-          <line>61</line>
+          <line>62</line>
           <properties>
             <option name="className" value="\Comment" />
             <option name="methodName" value="deleted_comment" />

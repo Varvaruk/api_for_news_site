@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: mr.incognito
- * Date: 10.11.2018
- * Time: 10:10
- */
+
 class News_model extends MY_Model
 {
     const NEWS_TABLE = 'news';
@@ -16,6 +11,7 @@ class News_model extends MY_Model
     const API_KEY_SHORT_INFO = 'short_info';
     const API_KEY_FULL_INFO = 'full_info';
     const API_KEY_TYPE_INFO = 'type_info';
+    const API_KEY_NEWS_ID = 'news_id';
 
     protected $id;
     protected $header;
@@ -27,9 +23,6 @@ class News_model extends MY_Model
     protected $time_updated;
 
     protected $views;
-
-//    protected $comments;
-//    protected $likes;
 
     function __construct($id = FALSE)
     {
@@ -149,21 +142,6 @@ class News_model extends MY_Model
         return $this->_save('time_updated', $time_updated);
     }
 
-//    /**
-//     * @return News_like_model
-//     */
-//    public function get_likes()
-//    {
-//        return $this->likes;
-//    }
-//
-//    /**
-//     * @return News_comments_model[]
-//     */
-//    public function get_comments()
-//    {
-//        return $this->comments;
-//    }
 
     /**
      * @param bool|string $preparation
@@ -294,7 +272,7 @@ class News_model extends MY_Model
 	    if(!$res){
 	        return FALSE;
         }
+
 	    return new self($CI->s->insert_id);
     }
-
 }

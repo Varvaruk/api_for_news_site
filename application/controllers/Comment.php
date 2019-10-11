@@ -10,6 +10,7 @@ class Comment extends MY_Controller
         $this->CI =& get_instance();
         $this->load->model('comment_model');
         $this->load->model('news_model');
+        $this->load->model('like_model');
 
         if (ENVIRONMENT === 'production') {
             die('Access denied!');
@@ -40,6 +41,7 @@ class Comment extends MY_Controller
         if (!empty(Comment_model::API_KEY_NEWS_ID)) {
             $news = News_model::get_one_news_by_id($param_assoc_array[Comment_model::API_KEY_NEWS_ID]);
             if (!($news->get_id())) {
+
                 return $this->response_error("News not found!");
             }
         }
@@ -67,6 +69,7 @@ class Comment extends MY_Controller
             }
             return $this->response_error("Comment not found!");
         }
+
         return $this->response_error("Param " . Comment_model::API_KEY_COMMENT_ID . " not found!");
     }
 }

@@ -157,6 +157,10 @@ class Comment_model extends MY_Model
         return new self($CI->s->insert_id);
     }
 
+    /**
+     * @param $data
+     * @return array
+     */
     public static function preparation($data)
     {
         $res = [];
@@ -177,16 +181,49 @@ class Comment_model extends MY_Model
         return $res;
     }
 
+    /**
+     * @param $id
+     * @return Comment_model|null
+     */
     public static function delete($id)
     {
         $CI =& get_instance();
         $_data = $CI->s->from(self::COMMENT_TABLE)->where('id', $id)->one();
         $comment = (new self())->load_data($_data);
         if (!$comment->get_id()) {
+
             return null;
         }
         $comment->setDeleted(true);
         $comment->setTimeUpdated(date("Y-m-d H:i:s"));
+
+        return $comment;
+    }
+
+    /**
+     * @param $news_id
+     * @return array
+     */
+    public static function get_comments_by_news_id($news_id)
+    {
+        $CI =& get_instance();
+        $_data = $CI->s->from(self::COMMENT_TABLE)->where('news_id', $news_id)->many();
+        $comments_list = [];
+        foreach ($_data as $_item) {
+            $comments_list[] = (new self())->load_data($_item);
+        }
+
+        return self::preparation($comments_list);
+    }
+
+    /**
+     * @param $comment_id
+     * @return Comment_model
+     */
+    public static function get_one_comment_by_id($comment_id){
+        $CI =& get_instance();
+        $_data = $CI->s->from(self::COMMENT_TABLE)->where('id',$comment_id)->one();
+        $comment = (new self())->load_data($_data);
 
         return $comment;
     }
