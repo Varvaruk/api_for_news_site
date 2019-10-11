@@ -230,6 +230,7 @@ class News_model extends MY_Model
         $news = (new self())->load_data($_data);
 
         if ($preparation === FALSE) {
+
             return $news;
         }
 

@@ -1,0 +1,13 @@
+CREATE TABLE `comment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `text` text,
+  `authors_name` varchar(1024) DEFAULT NULL,
+  `news_id` int(11) NOT NULL,
+  `deleted` tinyint(1) DEFAULT NULL,
+  `time_created` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `time_updated` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `IDX_8A9483A7BE036FC` (`news_id`),
+  CONSTRAINT `FK_8A9483A7BE036FC` FOREIGN KEY (`news_id`) REFERENCES `news` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+SET FOREIGN_KEY_CHECKS=1;
