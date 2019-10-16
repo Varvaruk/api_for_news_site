@@ -2,284 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a15756-3994-46c1-b4cb-a32642704e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test_task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dump.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/nodejs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/development/redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/doctypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/foreign_chars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/mimes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/profiler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/smileys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/config/main/user_agents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/Tests.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Exceptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/helpers/cms_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/helpers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/hooks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/language/english/form_validation_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/language/english/main_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/language/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/libraries/Bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/libraries/Logger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/libraries/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/libraries/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/News_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/third_party/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/vendor/php_error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/vendor/sparrow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/base/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/base/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/errors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Benchmark.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/CodeIgniter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Exceptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Output.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/URI.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/Utf8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/compat/hash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/compat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/compat/mbstring.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/compat/password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/compat/standard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/core/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_query_builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/DB_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/database/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/dotenv/Dotenv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/dotenv/Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/dotenv/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/dotenv/autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/fonts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/fonts/texb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/array_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/captcha_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/cookie_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/date_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/directory_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/download_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/email_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/file_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/form_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/html_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/inflector_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/language_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/number_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/path_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/security_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/smiley_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/string_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/text_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/typography_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/url_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helpers/xml_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/calendar_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/date_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/db_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/email_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/form_validation_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/ftp_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/imglib_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/migration_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/number_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/pagination_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/profiler_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/unit_test_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/english/upload_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/language/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_apc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_dummy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_file.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_wincache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Encrypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Encryption.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Form_validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Ftp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Image_lib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript/Jquery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Profiler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/SessionHandlerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/Session_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_database_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_files_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_memcached_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_redis_driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_redis_driver.php_" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_redis_driver_work" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Session/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Trackback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Typography.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Unit_test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/User_agent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Xmlrpc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Xmlrpcs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/Zip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/libraries/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Create_Like.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Like.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Like_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Comment_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Comment_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/News_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/News_model.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,54 +22,11 @@
       <executable />
     </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-107">
-                <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_task.conf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hell</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
+  <component name="FavoritesManager">
+    <favorites_list name="ci_test_2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/application/config/main/development/database.php" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsBowerSettings">
     <exe-path />
@@ -351,29 +38,15 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="example.com" id="d3337209-0003-499e-ba43-d8280262efc6" name="http://example.com/" />
+    </servers>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test_task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_task" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1" port="9000" />
+  <component name="ProjectId" id="1RzT0PgBYUDg4hdWuFGNH1iKWNG" />
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -383,12 +56,24 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="com.jetbrains.plugins.remotesdk.console.SshConsoleOptionsConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -417,63 +102,147 @@
       <option name="presentableId" value="Default" />
       <updated>1567557098106</updated>
       <workItem from="1567557099411" duration="936000" />
+      <workItem from="1570668705274" duration="274000" />
+      <workItem from="1570669069155" duration="1265000" />
+      <workItem from="1570740181285" duration="36450000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="936000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10805861" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32959184" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.09035409" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-107">
-            <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_task.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/vendor/php_error.php</url>
+          <line>2819</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
+          <line>165</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
+          <line>169</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Comment_model.php</url>
+          <line>191</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/News.php</url>
+          <line>97</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Like_model.php</url>
+          <line>103</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/Like_model.php</url>
+          <line>141</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Like.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/Like.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/application/controllers/Comment.php</url>
+          <line>62</line>
+          <properties>
+            <option name="className" value="\Comment" />
+            <option name="methodName" value="deleted_comment" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
